@@ -86,7 +86,7 @@ Mainmenu Area
 .humberger-menu{
     span{
         &.text-white{
-            color: #c6c9d8 !important;
+            color: white !important;
             
         }
     }
@@ -99,16 +99,16 @@ Mainmenu Area
                 @extend %liststyle;
                 > li {
                     > a {
-                        color: #ffffff;
+                        color: #000073;
                     }
                     &:hover {
                         > a {
-                            color: rgba(255,255,255,0.6);
+                            color: rgba(0,0,115,0.6);
                             @media #{$md-layout} {
-                                color: $theme-color;
+                                color: #000073;
                             }
                             @media #{$sm-layout} {
-                                color: $theme-color;
+                                color: #000073;
                             }
                         }
                     }
