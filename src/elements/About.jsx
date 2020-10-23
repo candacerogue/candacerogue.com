@@ -11,7 +11,7 @@ import Footer from "../component/footer/Footer";
 class About extends Component{
     render(){
         let title = 'Jill of All Trades.',
-        description = 'In my short life, I have experienced so much. I\'ve managed a $6 million territory for an international fashion brand. I\'ve lived in open gazebos and showered with tarantulas in Nicaragua. I\'ve even helped program all the brand websites for an online media publication reaching as many black millenials as we could. There is no paragraph that would dare summarize my entire life and professional experience, but if you\'re inspired by my work just wait until you see what I do next! Make sure you visit my services page to see how can I can help you follow your curiousity into a branding experience you won\'t forget!';
+        description = 'In my short life, I have experienced so much. I\'ve managed a $6 million territory for an international fashion brand. I\'ve lived in open gazebos and showered with tarantulas in Nicaragua. I\'ve even helped program all the brand websites for an online media publication reaching as many black millenials as we could. There is no paragraph that would dare summarize my entire life and professional experience, but if you\'re inspired by my work just wait until you see what I do next! Make sure you visit my services page to see how I can help you follow your curiousity into a branding experience you won\'t forget!';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
