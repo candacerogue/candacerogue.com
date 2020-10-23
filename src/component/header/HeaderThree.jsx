@@ -101,7 +101,7 @@ class HeaderThree extends Component{
                             </ul>
                         </div>
                         <div className="header-btn">
-                            <a className="rn-btn" href="https://calendly.com/candacerogue/dev">
+                            <a className="rn-btn" href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer">
                                 <span>Book Consultation</span>
                             </a>
                         </div>
