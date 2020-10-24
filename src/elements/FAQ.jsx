@@ -107,7 +107,7 @@ class FAQ extends Component {
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
                                             <p>If I have completed some work and you need technical maintenance/assistance, please reach out to me directly at <a className="theme-gradient" href="mailto:candace@candacerogue.com">candace@candacerogue.com</a>.</p>
-                                            <p>If you need technical maintenance/assistance completed by another professional, please book some time on my calendar <a className="rn-btn" href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer">here</a> for us to connect and speak through your issues!</p>
+                                            <p>If you need technical maintenance/assistance completed by another professional, please book some time on my calendar <a className="theme-gradient" href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer">here</a> for us to connect and speak through your issues!</p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
                                 <br/>    
