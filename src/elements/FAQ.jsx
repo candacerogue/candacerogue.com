@@ -89,13 +89,22 @@ class FAQ extends Component {
                                     <AccordionItem>
                                         <AccordionItemHeading>
                                             <AccordionItemButton>
-                                                Can I change any component as I like?
+                                                How long is the development or design process?
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
-                                            <p>
-                                                Yes, You can change any component as you like. And By the way you can build your website which you are choose.
-                                            </p>
+                                            <p>Timelines always depend on the client! While I am great at streamlining these processes to meet your tightest deadlines, I do want to make sure you take your time with feedback so I can encapsulate all of your feedback in your checkpoints and you walk off with a product you will be proud of.</p>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                What's the difference between a revision and modification?
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <p>A modification is usually a slight change whereas revision can be a complete change of the original. Please make sure that you make your checkpoints as meaningful as possible. If we step outside of the scope specified in the contract for revisions, as opposed to a modification, there will be an additional costs to be submitted before revision is made to ensure the work is being adequately compensated.</p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
