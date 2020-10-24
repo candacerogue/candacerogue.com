@@ -62,7 +62,7 @@ class MobileAppDetails extends Component{
                                                     <p>When you begin learning good website design, mobile design should never be too far. In fact, when I started designing for the web I was taught "Mobile first."</p>
                                                     <p>During my stint at an online media publication geared toward black millenials close to 90% of our users were mobile, for most e-commerce businesses the same is true. If you knew most of your potential business were more likely to buy, browse & read on cellphones than their desktops, wouldn't you want to increase the odds of higher cart values, click thrus and ad impressions? I know I would.</p>
                                                     <p>That's why when we collaborate on mobile design it will always include the user experience and interaction design process that will get to the deepest desires of your target users and we'll turn that into meaningful design choices for your application.</p>
-                                                    <h4 className="title">Proceess Overview</h4> 
+                                                    <h4 className="title">Process Overview</h4> 
                                                     <ul className="liststyle">
                                                         <li>Brand Discovery <span role="img" aria-label="investigator emoji">🕵🏾‍♀️</span></li>
                                                         <li>Strategy & Content<span role="img" aria-label="artist emoji">👩🏾‍🎨</span></li>

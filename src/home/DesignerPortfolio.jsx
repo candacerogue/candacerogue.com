@@ -21,7 +21,7 @@ const SlideList = [
 const DesignerPortfolio = () => {
     return (
         <div>
-            <Helmet pageTitle="Follow Your Curiousity" />
+            <Helmet pageTitle="Follow Your Curiosity" />
             {/* Start Header Area  */}
             <Header headerPosition="header--static" logo="symbol-dark" color="color-black"/>
             {/* End Header Area  */}
@@ -67,7 +67,7 @@ const DesignerPortfolio = () => {
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                                     <h2 className="title" style={{color: "white"}}>Official Service List</h2>
-                                    <p>My talents go far beyond design and development. If you'd like to read more about my processes in these discplines below click the service that peaks your interest. If you're curious about what I do in the "Upside-Down", follow your curiousity to my secret menu <a href="/linktree" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>LinkTree</a></p>
+                                    <p>My talents go far beyond design and development. If you'd like to read more about my processes in these discplines below click the service that peaks your interest. If you're curious about what I do in the "Upside-Down", follow your curiosity to my secret menu <a href="/linktree" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>LinkTree</a></p>
                                 </div>
                             </div>
                         </div>

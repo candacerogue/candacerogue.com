@@ -61,7 +61,7 @@ class ServiceDetails extends Component{
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <p>My job is to help you attain and refine a web presence that illustrates your brand's personality, mission and vision.</p>
                                                     <p>Using fundamental web principles enables us not only to spread brand awareness, but to help monetize and scale your business.</p>
-                                                    <h4 className="title">Proceess Overview</h4>
+                                                    <h4 className="title">Process Overview</h4>
                                                     <ul className="liststyle">
                                                         <li>Brand Discovery <span role="img" aria-label="investigator emoji">🕵🏾‍♀️</span></li>
                                                         <li>Design Concept <span role="img" aria-label="artist emoji">👩🏾‍🎨</span></li>

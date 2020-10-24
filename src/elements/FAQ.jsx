@@ -56,7 +56,7 @@ class FAQ extends Component {
                                             <ul>
                                                 <li><h4>Candace Rogue</h4>Renassiance Woman & Jill of All Trades offering Web Design & Development, Graphic Design and Mobile App Design services. </li>
                                                 <li><h4>WTFrontend</h4> A YouTube playlist and social media platform with cool tips and tricks to navigate your code and workplace. </li>
-                                                <li><h4>501 Roguleand</h4> A creative wonderland in the making. Look out for real estate & financial dos and don'ts on the social media platform and walk with me through my journey from ideation to execution of your new favorite space. </li>
+                                                <li><h4>501 Rogueland</h4> A creative wonderland in the making. Look out for real estate & financial dos and don'ts on the social media platform and walk with me through my journey from ideation to execution of your new favorite space. </li>
                                                 <li><h4>Outta State Outta My Mind</h4> My shop for all of the amazing fashion and art pieces that fall out of my head.</li>
                                                 <li><h4>Black Barter</h4> A landing spot for black creatives and entrepreneurs to help source talent to scale their businesses in exchange for their own talents and aptitudes.</li>
                                             </ul>

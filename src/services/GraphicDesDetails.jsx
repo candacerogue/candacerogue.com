@@ -61,7 +61,7 @@ class GraphicDesDetails extends Component{
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <p>I don't have some romantic love story where my love for art & design began. I honestly just remember my brother drawing random things, and I followed suit because I did everything he did. He's always been so talented and made it easy to follow his lead.</p>
                                                     <p>Think of our working relationship in a similar light. You're leading with all of your bright, illustrative ideas and I'll follow your lead by transcribing your ideas into art concepts adding my personal & unique touches everywhere I feel welcomed to do so.</p>
-                                                    <h4 className="title">Proceess Overview</h4>
+                                                    <h4 className="title">Process Overview</h4>
                                                     <ul className="liststyle">
                                                         <li>Brand Discovery <span role="img" aria-label="investigator emoji">🕵🏾‍♀️</span></li>
                                                         <li>Design Concepts <span role="img" aria-label="artist emoji">👩🏾‍🎨</span></li>
