@@ -35,6 +35,7 @@ import DesignerPortfolio from './home/DesignerPortfolio';
 // Element Layout
 // import Service from "./elements/Service";
 import LinkTree from "./elements/LinkTree";
+import FAQ from "./elements/FAQ";
 // import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
@@ -105,6 +106,7 @@ class Root extends Component{
                     {/* Element Layout */}
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/linktree`} component={LinkTree}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/faq`} component={FAQ}/>
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>

@@ -16,7 +16,7 @@ const PortfolioList2 = [
     {
         image: 'image-2',
         category: 'Graphic Design',
-        title: 'f(lux Album Cover',
+        title: 'f(lux) Album Cover',
         href: 'jessica-details'
     },
     {

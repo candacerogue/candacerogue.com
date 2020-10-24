@@ -60,7 +60,7 @@ class MobileAppDetails extends Component{
                                             <div className="col-lg-6 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
                                                     <p>When you begin learning good website design, mobile design should never be too far. In fact, when I started designing for the web I was taught "Mobile first."</p>
-                                                    <p>During my stint at an online media publication geared toward black millenials close to 90% of our users were mobile, for most e-commerce businesses the same is true. If you knew most of your potential business were more likely to buy, browse & read on cellphones than their desktops, wouldn't you want to increase the odds of higher cart values, click thrus ad impressions? I know I would.</p>
+                                                    <p>During my stint at an online media publication geared toward black millenials close to 90% of our users were mobile, for most e-commerce businesses the same is true. If you knew most of your potential business were more likely to buy, browse & read on cellphones than their desktops, wouldn't you want to increase the odds of higher cart values, click thrus and ad impressions? I know I would.</p>
                                                     <p>That's why when we collaborate on mobile design it will always include the user experience and interaction design process that will get to the deepest desires of your target users and we'll turn that into meaningful design choices for your application.</p>
                                                     <h4 className="title">Proceess Overview</h4> 
                                                     <ul className="liststyle">
@@ -79,8 +79,8 @@ class MobileAppDetails extends Component{
                                         <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>If you're a beginner designer and want to learn more about the UI/UX process checkout my Prezi, "Why is UI/UX so damn sexy?"</p>
-                                                    <p>If you're a potential client, whatcha waiting for? Let's get it. You can book your consultation <a href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer" style={{color: "#000073"}}>here</a>!</p>
+                                                    <p>If you're a beginner designer and want to learn more about the UI/UX process checkout my Prezi, <a href="https://prezi.com/mmasr-ngfk0n/why-is-uiux-so-damn-sexy/?present=1" target="_blank" rel="noopener noreferrer" style={{color: "#000073"}}>"Why is UI/UX so damn sexy?"</a></p>
+                                                    <p>If you're a potential client, whatcha' waiting for? Let's get it. You can book your consultation <a href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer" style={{color: "#000073"}}>here</a>!</p>
                                                     <h4 className="title">My Promise</h4>
                                                     <ul className="liststyle">
                                                         <li>Timely Communication</li>
