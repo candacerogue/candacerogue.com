@@ -88,6 +88,7 @@ class HeaderThree extends Component{
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="/shop">Shop</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </Scrollspy>
                         </nav>

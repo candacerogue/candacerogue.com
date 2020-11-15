@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from 'axios'
 
 class ContactTwo extends Component{
     constructor(props){
@@ -10,6 +11,24 @@ class ContactTwo extends Component{
             rnMessage: '',
         };
     }
+
+    handleSubmit(e) {
+        e.preventDefault();
+        axios({
+          method: "POST", 
+          url:"http://localhost:3002/send", 
+          data:  this.state
+        }).then((response)=>{
+          if (response.data.status === 'success') {
+            alert("Message Sent."); 
+            this.resetForm()
+          } else if(response.data.status === 'fail') {
+            alert("Message failed to send.")
+          }
+        })
+      }
+
+
     render(){
         return(
             <div className="contact-form--1">
@@ -21,7 +40,7 @@ class ContactTwo extends Component{
                                 <p className="description">If you have general questions before your consultation, ask me <a href="mailto:candace@candacerogue.com" style={{color: '#000073'}}>here!</a></p>
                             </div>
                             {/* <div className="form-wrapper">
-                                <form>
+                                <form onSubmit={this.handleSubmit.bind(this)} method="POST">
                                     <label htmlFor="item01">
                                         <input
                                             type="text"
@@ -67,7 +86,7 @@ class ContactTwo extends Component{
                                     <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
                                 </form>
                             </div> */}
-                        </div>
+                        </div> 
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
                                 <img src="/assets/images/about/about-6.png" alt="old school telephone"/>

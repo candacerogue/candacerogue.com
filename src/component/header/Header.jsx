@@ -70,6 +70,7 @@ class Header extends Component{
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><a href="/#portfolio">Portfolio</a></li>
+                                <li><Link to="/shop" >Shop</Link></li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>

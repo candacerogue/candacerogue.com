@@ -35,7 +35,7 @@ class WebDevDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">WEBSITE DESIGN & DEVELOPMENT</h2>
-                                    <p>There's so many possibilities on wonderful world wide web. Let's explore together.</p>
+                                    <p>There's so many possibilities on the wonderful world wide web. Let's explore together.</p>
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ import { FiChevronUp } from "react-icons/fi";
 const LinkTreeList = [
     {
         title: 'Shop',
-        href: 'https://candacerogue.bigcartel.com'
+        href: 'https://shop.candacerogue.com'
     },
     {
         title: 'Book Consultation',

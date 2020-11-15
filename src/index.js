@@ -144,7 +144,10 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/pricing-table`} component={PricingTable}/> */}
 
 
-                    
+                    <Route path='/shop' component={() => { 
+                        window.location.href = 'https://shop.candacerogue.com'; 
+                        return null;
+                    }}/>
                     <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                     <Route component={error404}/>
 
