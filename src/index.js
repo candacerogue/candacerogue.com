@@ -150,6 +150,10 @@ class Root extends Component{
                         window.location.href = 'https://shop.candacerogue.com'; 
                         return null;
                     }}/>
+                    <Route path='/wtfrontend' component={() => { 
+                        window.location.href = 'https://candacerogue.com/faq'; 
+                        return null;
+                    }}/>
                     <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                     <Route component={error404}/>
 
