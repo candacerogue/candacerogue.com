@@ -49,7 +49,8 @@ import WebDevDetails from "./services/WebDevDetails";
 import GraphicDesDetails from "./services/GraphicDesDetails";
 import MobileAppDetails from "./services/MobileAppDetails";
 
-//Portfolio Projects
+//Portfolio & Projects
+import PortfolioHub from "./blocks/PortfolioHub";
 import DankSweetsDetails from "./elements/DankSweetsDetails";
 import JessicaDetails from "./elements/JessicaDetails";
 import BlendedDetails from "./elements/BlendedDetails";
@@ -120,7 +121,8 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/mobile-app-details`} component={MobileAppDetails}/>
                     
 
-                    {/* Portfolio Projects */}
+                    {/* Portfolio & Projects */}
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={PortfolioHub}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/danksweets-details`} component={DankSweetsDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/jessica-details`} component={JessicaDetails}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blended-details`} component={BlendedDetails}/>

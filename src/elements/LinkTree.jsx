@@ -21,7 +21,7 @@ const LinkTreeList = [
     },
     {
         title: 'Portfolio',
-        href: 'designer-portfolio/#portfolio'
+        href: '/portfolio'
     },
     {
         title: 'UI/UX Prezi',

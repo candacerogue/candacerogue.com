@@ -100,7 +100,7 @@ const DesignerPortfolio = () => {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                                        <a className="rn-button-style--2 btn-solid" href="/#portfolio"><span>View More</span></a>
+                                        <a className="rn-button-style--2 btn-solid" href="/portfolio"><span>View More</span></a>
                                     </div>
                                 </div>
                             </div>

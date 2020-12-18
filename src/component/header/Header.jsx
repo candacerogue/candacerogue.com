@@ -69,7 +69,7 @@ class Header extends Component{
                                         <li><a href="/mobile-app-details">Mobile App Design</a></li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown"><a href="/#portfolio">Portfolio</a></li>
+                                <li className="has-droupdown"><a href="/portfolio">Portfolio</a></li>
                                 <li><Link to="/shop" >Shop</Link></li>
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>

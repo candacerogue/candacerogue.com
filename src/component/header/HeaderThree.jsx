@@ -87,7 +87,7 @@ class HeaderThree extends Component{
                                         <li><a href="/mobile-app-details">Mobile App Design</a></li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown"><a href="#portfolio">Portfolio</a></li>
+                                <li className="has-droupdown"><a href="portfolio">Portfolio</a></li>
                                 <li><a href="/shop">Shop</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </Scrollspy>
