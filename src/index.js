@@ -76,6 +76,10 @@ import AfrochellaDetails from "./elements/AfrochellaDetails";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+//Google Analytics 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-185807553-1'); // add your tracking id here.
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Root extends Component{
     render(){
@@ -151,7 +155,7 @@ class Root extends Component{
                         return null;
                     }}/>
                     <Route path='/wtfrontend' component={() => { 
-                        window.location.href = 'https://candacerogue.com/faq'; 
+                        window.location.href = 'https://www.candacerogue.com/faq'; 
                         return null;
                     }}/>
                     <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
