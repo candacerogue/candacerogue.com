@@ -21,7 +21,7 @@ const PricingTable = () => {
 
             {/* Start Page Wrapper  */}
             <main className="page-wrapper">
-                {/* Start Pricing Tbale Area  */}
+                {/* Start Pricing Table Area  */}
                 <div className="rn-pricing-table-area ptb--120 bg_color--5">
                     <div className="container">
                         <div className="row">

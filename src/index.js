@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 
 // Create Import File
 import './index.scss';
+import '../public/assets/fonts/BodoniFLF-Bold.ttf'; 
+import '../public/assets/fonts/Coltisho.ttf';
 
 // Common Layout
 // import Layout from "./component/common/App";
@@ -35,6 +37,7 @@ import DesignerPortfolio from './home/DesignerPortfolio';
 // Element Layout
 // import Service from "./elements/Service";
 import LinkTree from "./elements/LinkTree";
+import NoExcuse from "./elements/NoExcuse";
 import FAQ from "./elements/FAQ";
 // import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
@@ -76,6 +79,10 @@ import AfrochellaDetails from "./elements/AfrochellaDetails";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
+//Google Analytics 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-185807553-1'); // add your tracking id here.
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Root extends Component{
     render(){
@@ -104,9 +111,10 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/> */}
 
 
-                    {/* Element Layout */}
+                    {/* Page Layout */}
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/linktree`} component={LinkTree}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/no-excuse-branding-website-kit`} component={NoExcuse}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/faq`} component={FAQ}/>
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
@@ -151,7 +159,7 @@ class Root extends Component{
                         return null;
                     }}/>
                     <Route path='/wtfrontend' component={() => { 
-                        window.location.href = 'https://candacerogue.com/faq'; 
+                        window.location.href = 'https://www.candacerogue.com/faq'; 
                         return null;
                     }}/>
                     <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>

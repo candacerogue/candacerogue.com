@@ -57,8 +57,8 @@ class FAQ extends Component {
                                                 <li><h4>Candace Rogue</h4>Renassiance Woman & Jill of All Trades offering Web Design & Development, Graphic Design and Mobile App Design services. </li>
                                                 <li><h4>WTFrontend</h4> A YouTube playlist and social media platform with cool tips and tricks to navigate your code and workplace. </li>
                                                 <li><h4>501 Rogueland</h4> A creative wonderland in the making. Look out for real estate & financial dos and don'ts on the social media platform and walk with me through my journey from ideation to execution of your new favorite space. </li>
-                                                <li><h4>Outta State Outta My Mind</h4> My shop for all of the amazing fashion and art pieces that fall out of my head.</li>
-                                                <li><h4>Black Barter</h4> A landing spot for black creatives and entrepreneurs to help source talent to scale their businesses in exchange for their own talents and aptitudes.</li>
+                                                <li><h4>The Rogue Museum</h4> My shop for all of the amazing fashion and art pieces that fall out of my head.</li>
+                                                <li><h4>The Black Barter</h4> A landing spot for black creatives and entrepreneurs to help source talent to scale their businesses in exchange for their own talents and aptitudes.</li>
                                             </ul>
                                         </AccordionItemPanel>
                                     </AccordionItem>
@@ -104,7 +104,7 @@ class FAQ extends Component {
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
-                                            <p>A modification is usually a slight change whereas revision can be a complete change of the original. Please make sure that you make your checkpoints as meaningful as possible. If we step outside of the scope specified in the contract for revisions, as opposed to a modification, there will be an additional costs to be submitted before revision is made to ensure the work is being adequately compensated.</p>
+                                            <p>A modification is usually a slight change whereas revision can be a complete change of the original. Please make sure that you make your checkpoints as meaningful as possible. If we step outside of the scope specified in the contract for revisions, as opposed to a modification, there will be additional costs to be submitted before revision is made to ensure the work is being adequately compensated.</p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
@@ -150,7 +150,7 @@ class FAQ extends Component {
                                             </AccordionItemButton>
                                         </AccordionItemHeading>
                                         <AccordionItemPanel>
-                                            <p>I don't take refunds for any items I sell, but am happy to try and accommodate in any other way that I can. If there is an issue with quality, please reach out to me so we can speak through you needs and I can try and rectify.</p>
+                                            <p>I don't take refunds for any items I sell, but am happy to try and accommodate in any other way that I can. If there is an issue with quality, please reach out to me so we can speak through your needs and I can try and rectify.</p>
                                         </AccordionItemPanel>
                                     </AccordionItem>
 
@@ -160,7 +160,7 @@ class FAQ extends Component {
                     </div>
                 </div>        
                 </div>
-                {/* Start Faq Area */}
+                {/* End Faq Area */}
                 {/* Start Back To Top */}
                 <div className="backto-top">
                     <ScrollToTop showUnder={160}>

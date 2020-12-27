@@ -1,6 +1,6 @@
 /*********************************************************************************
 
-	Template Name: React Degital Agency Template
+	Template Name: React Digital Agency Template
 	Note: This is style css.
 
 **********************************************************************************/
@@ -49,6 +49,7 @@
 	|	|___ list 
 	|	|___ contact 
 	|	|___ linktree 
+	|	|___ no-excuse
 	|
 	|___BLog Styles
 	|	|___ blog 
@@ -143,3 +144,10 @@
 @import 'template/service-details';
 @import 'template/dark-version';
 @import 'template/preview';
+
+
+/**************************************
+    No Excuse Landing Page Style
+***************************************/
+
+@import 'elements/no-excuse';

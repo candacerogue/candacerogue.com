@@ -58,7 +58,7 @@ const PortfolioList2 = [
                             <div className="col-lg-12">
                                 <div className="inner">
                                     <h1 className="title theme-gradient">404!</h1>
-                                    <h3 className="sub-title">That's weird 🤨</h3>
+                                    <h3 className="sub-title">That's weird <span role="img" aria-label="weird-face emoji">🤨</span></h3>
                                     <p style={{color: 'white'}}>Check out some of my latest work before you head back home.</p>
                                     <div className="wrapper portfolio-sacousel-inner mb--55">
                                             <div className="portfolio-slick-activation mt--30 mt_sm--30">
