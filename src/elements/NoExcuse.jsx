@@ -23,7 +23,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const TabOne = [
     {
         image: '01',
-        bigImage: '/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png',
+        bigImage: '/assets/images/no-excuse/iMac-psd-mockup-template-1.png',
         prompt: 'Preview Template',
         title: 'CannaTherapy',
         title2: 'Buy CannaTherapy',
@@ -32,31 +32,31 @@ const TabOne = [
     },
     {
         image: '02',
-        bigImage: '/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png',
+        bigImage: '/assets/images/no-excuse/iMac-mockup-template-Marisicles.png',
         prompt: 'Preview Template',
         title: 'Marisicles',
         title2: 'Buy Marisicles',
         href: 'https://www.canva.com/design/DAEN5xjOYW4/DUO1Nnuk9ETbaVHMve4lIg/view?website#2',
-        href2: 'https://shop.candacerogue.com/product/canva-made-website-template'
+        href2: 'https://shop.candacerogue.com/product/canva-made-website-template-2'
     },
     {
         image: '03',
-        bigImage: '/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png',
+        bigImage: '/assets/images/no-excuse/iMac-mockup-template-2- Royal-Buns.png',
         prompt: 'Preview Template',
         title: 'Royal Buns',
         title2: 'Buy Royal Buns',
         href: 'https://www.canva.com/design/DAEQBC-c7mY/0Vvo8JIW0b6BLuraWuk50A/view?website#2:home',
-        href2: 'https://shop.candacerogue.com/product/canva-made-website-template'
-    },
-    {
-        image: '04',
-        bigImage: '/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png',
-        prompt: 'Preview Template',
-        title: 'Wave Ride',
-        title2: 'Buy Wave Ride',
-        href: 'https://21ninety.com/',
-        href2: 'https://shop.candacerogue.com/product/canva-made-website-template'
+        href2: 'https://shop.candacerogue.com/product/canva-made-website-template-3'
     }
+    // {
+    //     image: '04',
+    //     bigImage: '/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png',
+    //     prompt: 'Preview Template',
+    //     title: 'Wave Ride',
+    //     title2: 'Buy Wave Ride',
+    //     href: 'https://21ninety.com/',
+    //     href2: 'https://shop.candacerogue.com/product/canva-made-website-template'
+    // }
 ]
 
 class NoExcuse extends Component{
@@ -116,7 +116,7 @@ class NoExcuse extends Component{
                                                     <p>And that is why I designed this kit.</p>
                                                     <br/>
                                                     <h3 style= {{ fontStyle: "italic" }}>No more waiting. No more bullshit. Say “goodbye” to the excuses and “hello” to your no nonsense, money making landing page.</h3>
-                                                    <button className="no-excuse-button">You Ready?</button>
+                                                    <a href="https://shop.candacerogue.com/category/digital-products" rel="noopener noreferrer"><button className="no-excuse-button">You Ready?</button></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -196,7 +196,7 @@ class NoExcuse extends Component{
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Custom Domain Connection Service - You say when, and I’ll deploy your site myself on your custom domain.</p>
                                         <br/>
                                         <h3>See? No excuses.</h3>
-                                        <button className="no-excuse-button">Snag Yours!</button>
+                                        <a href="https://shop.candacerogue.com/category/digital-products" rel="noopener noreferrer"><button className="no-excuse-button">Snag Yours!</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -314,7 +314,7 @@ class NoExcuse extends Component{
                                 </div>
                             </div>
                         </div>
-                        <button className="no-excuse-button">Buy Now</button>
+                        <a href="https://shop.candacerogue.com/category/digital-products" rel="noopener noreferrer"><button className="no-excuse-button">Buy Now</button></a>
                     </div>
                     {/* End Main Benefits Area */}
 
@@ -350,7 +350,7 @@ class NoExcuse extends Component{
                                                     </ul>
                                                 </div>
                                                 <div className="pricing-footer">
-                                                    <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                                    <a className="rn-btn" href="https://shop.candacerogue.com/category/digital-products">Purchase Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -384,7 +384,7 @@ class NoExcuse extends Component{
                                                     </ul>
                                                 </div>
                                                 <div className="pricing-footer">
-                                                    <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                                    <a className="rn-btn" href="https://shop.candacerogue.com/category/digital-products">Purchase Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -419,7 +419,7 @@ class NoExcuse extends Component{
                                                     </ul>
                                                 </div>
                                                 <div className="pricing-footer">
-                                                    <a className="rn-btn" href="#pricing">Purchase Now</a>
+                                                    <a className="rn-btn" href="https://shop.candacerogue.com/category/digital-products">Purchase Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -561,7 +561,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>Due to the quality of work and delivery of these templates, I do not offer refunds. If you need assistance moving forward with these templates, please feel free to hit me up at candace@candacerogue.com</p>
+                                                        <p>Due to the quality of work and delivery of these templates, I do not offer refunds. If you need assistance moving forward with these templates, please feel free to hit me up at <a href="mailto:candace@candacerogue.com">candace@candacerogue.com</a></p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
@@ -577,7 +577,7 @@ class NoExcuse extends Component{
                     {/* Start More Questions Area */}
                     <div className="text-center">                     
                         <h3 className="special-caps">Need a whole web experience?</h3>
-                        <span style={{ color: '#3B2317', fontSize:'2em', fontWeight:'bolder'}}>Contact me at candace@candacerogue.com</span>
+                        <span style={{ color: '#3B2317', fontSize:'2em', fontWeight:'bolder'}}>Contact me at <a href="mailto:candace@candacerogue.com" style={{ color: '#3B2317'}}>candace@candacerogue.com</a></span>
                     </div>  
                     {/* End More Questions Area */}
                     <br/>
