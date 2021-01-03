@@ -15,10 +15,10 @@ class NoExcuseTestimonial extends Component{
                                     </div>
                                 </div>
                             </TabPanel>
-                            <div className="take-it-from-overlay">
+                            {/* <div className="take-it-from-overlay">
                                 <img src="/assets/images/no-excuse/the-shy-chef.png" alt="The Shy Chef"/>
-                            </div>
-                            <h3 className="take-it-from-subheading" style= {{ fontStyle: "italic" }}>She's right!</h3>
+                            </div> */}
+                            <h3 className="take-it-from-subheading" style= {{ fontStyle: "italic" }}>Valid points were made.</h3>
                             <button className="no-excuse-button">I'm Ready!</button>
                             <TabList className="testimonial-thumb-wrapper">
                                 <Tab>

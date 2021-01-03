@@ -71,7 +71,6 @@ class NoExcuse extends Component{
     }
     openModal () {
         this.setState({isOpen: true})
-        this.setState({isOpen2: true})
     }
     render(){
         // let myHTML = `<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 48px; overflow: hidden; border-radius: 8px; will-change: transform;"><iframe style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAENxQ13VWU&#x2F;view?embed"></iframe></div>`;
@@ -108,10 +107,10 @@ class NoExcuse extends Component{
                                                     <br/>
                                                     <br/>
                                                     <h3>I don’t want you to wait as long as I did to build a web presence *cough cough* It was 4 years.</h3>
-                                                    <p>Because someone <span className="special-caps">NEEDS</span> exactly what you have to offer</p>
-                                                    <p>Whether that’s consulting services, a subscription box or groundbreaking-product. They need you now.</p>
-                                                    <p>Don’t you want to get out of your own way? Stop waiting until you take that one class that makes you an “expert”, or the perfect photographer to take your headshots/product pictures. Someone could see that IG Live where you were spittin’ hot fire and want to buy the service <span className="special-caps">NOW</span>.</p>
-                                                    <p>Website up and product/service offerings ready to buy? Start <span className="special-caps">HERE</span> with this kit.</p>
+                                                    <p>Someone <span className="special-caps">NEEDS</span> exactly what you have to offer</p>
+                                                    <p>Whether that’s consulting services, a subscription box or a groundbreaking-product. They need you  <span className="special-caps">NOW</span>.</p>
+                                                    <p>Don’t you want to get out of your own way? Stop waiting until you take that one class that makes you an “expert”, or the perfect photographer to take your headshots/product pictures. Someone could see that IG Live where you are spittin’ hot fire and wants to buy the service <span className="special-caps">NOW</span>.</p>
+                                                    <p>Website up and product/service offerings ready to buy? Start <span className="special-caps"><a href="https://shop.candacerogue.com/category/digital-products" rel="noopener noreferrer">HERE</a></span>with this kit.</p>
                                                     <p>I want you to start pacing toward your 7 figure dreams today.</p>
                                                     <p>And that is why I designed this kit.</p>
                                                     <br/>
@@ -143,13 +142,13 @@ class NoExcuse extends Component{
                                         <br/>
                                         <h3>Here’s what you’ll find in the <span className="special-caps">platinum package</span>:</h3>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span>Desktop Canva Template</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span>Desktop Canva Template.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span>Graphic Assets all personally designed by me. So no licensing restrictions when reusing assets.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span>Icon Pack, keep the branding alive down to every…single…button.</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span>Website Customization Tutorial. I’ll walk you through how to quickly move in your beautiful product, service and stock images to tailor to your brand</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span>Website Customization Tutorial. I’ll walk you through how to quickly move in your beautiful product, service and stock images to tailor the template to your brand.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Bonus Header. I often feel generous, so get this package today and extra header style option on me.</p>
                                     </div>
@@ -158,7 +157,7 @@ class NoExcuse extends Component{
                                     <div className="single-column">
                                         <div className="thumb position-relative">
                                             <img className="no-excuse-video-img" src="/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png" alt="CannaTherapy-Sample-2"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='0Vxnml3dOdg' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center black-color" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                     </div>
@@ -176,7 +175,7 @@ class NoExcuse extends Component{
                                     <div className="single-column">
                                         <div className="thumb position-relative">
                                             <img className="no-excuse-video-img" src="/assets/images/no-excuse/CannaTherapy-Mockup-Poster.png" alt="CannaTherapy-Sample"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='0Vxnml3dOdg' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center black-color" onClick={this.openModal}><span className="play-icon"></span></button>
                                         </div>
                                     </div>
@@ -185,13 +184,13 @@ class NoExcuse extends Component{
                                     <div className="single-column">
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Brand Guide. Providing the aesthetic so you don’t get lost in the sauce.</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Instagram Story Templates. Of course I didn’t have to, but I wanted to.</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Instagram Story Templates…No excuses remember? Promote your brand!</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Social Media Post Templates. Got content? Good, because I have the format</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Social Media Post Templates. Got content? Good, because I have the format.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Example Jot Form. I’m handing you the entire system to make the bread. Don’t fumble the bag.</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Add Jot Form Tutorial, I’ll get you going in no time!</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Add Jot Form Tutorial, so you don’t waste time trying to figure out how to set up this tool.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Custom Domain Connection Service - You say when, and I’ll deploy your site myself on your custom domain.</p>
                                         <br/>
@@ -290,7 +289,7 @@ class NoExcuse extends Component{
                                         <br/>
                                         <h3>Reasons why you should choose this product:</h3>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">Cost effective</span> - Spending money on a website can take thousands of dollars when working with a designer and developer. Get my guidance, my design skills and your very own website up in a day for a fraction of the cost.</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">Cost effective</span> - Spending money on a website can take thousands of dollars when working with a designer and developer. Get my developer guidance, my design skills and your very own website up in a day for a fraction of the cost.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">Time Saving</span> - Simplifying the road to a beautiful website takes you from a 4-10 week process to a ONE day process.</p>
                                         <br/>
@@ -457,7 +456,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>You sure can! These templates are ready made. so once you download them into your canva account, you will have the freedom to customize every single element in these templates.</p>
+                                                        <p>You sure can! Once you copy the template to your Canva account, you will have the freedom to customize every single element in these templates.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
@@ -468,7 +467,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>These templates are stand alone landing pages with images and links. So you won't be able to import these template designs into your website on your own hosting platform. You will be able to forward your custom domain to the template or include a tab on your site that links to the landing page templates.</p>
+                                                        <p>These templates are stand alone landing pages with images and links. So you won't be able to import these template designs into your website on your own hosting platform. However, you will be able to forward your custom domain to the customized template or include a tab on your site that links to the landing page templates.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
                                                 <AccordionItem>
@@ -478,7 +477,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        Yup! You can forward your custom domain to the template link you create. I teach you exactly how to do it. OR if you buy the platinum package, I will connect the custom domain to your landing page template myself!
+                                                        <p>Yup! You can forward your custom domain to the link  that is created once you 'Publish as Website'. I teach you exactly how to do it. OR if you buy the platinum package, I will connect the custom domain to your landing page myself!</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
@@ -489,7 +488,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>If you have your brand colors, product/service images and copy ready right now, the process can take less than a day! After forwarding your custom domain to the template location it can take up to 48 hours for your DNS to propogate depending on your domain/hosting provider.</p>
+                                                        <p>Less than day! I have even gotten a client set up in just 3 hours from start to finish! Please also keep in mind, that after forwarding your custom domain to the template location it can take up to 48 hours for your DNS to propogate depending on your domain/hosting provider.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
@@ -500,14 +499,14 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>These templates are perfect for budding entrepreneurs who have any of, but not limited to, the following goals:
+                                                        <p>These templates are perfect for budding entrepreneurs who have any of, but not limited to, the following goals:</p>
                                                             <ul>
                                                                 <li>Landing pages</li>
                                                                 <li>Sales pages</li>
                                                                 <li>Brand awareness of physical products & services</li>
                                                                 <li>Adverstisement of a course, lead generation/email capture or product</li>
                                                             </ul> 
-                                                             I would not recommend using these templates for an ecommerce website selling more than 3-5 products/services. These templates allow you to share your message, promote your products, present offers, generate leads, AND sell your services & products.</p>
+                                                        <p>I would not recommend using these templates for an ecommerce website selling more than 3-5 products/services. These templates allow you to share your message, promote your products, present offers, generate leads, AND sell your services & products.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
                                                 <AccordionItem>
@@ -517,7 +516,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>Yes, they are made on the Canva platform!</p>
+                                                        <p>Yes, most of the graphic assets were created in Adobe CC and then uploaded to the Canva platform to create a beautiful layout.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
                                                 <AccordionItem>
@@ -527,8 +526,8 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>If I have completed some work and you need technical maintenance/assistance, please reach out to me directly at <a href="mailto:candace@candacerogue.com">candace@candacerogue.com</a>.</p>
-                                                        <p>If you need technical maintenance/assistance completed by another professional, please book some time on my calendar <a className="theme-gradient" href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer">here</a> for us to connect and speak through your issues!</p>
+                                                        <p>If I have completed some work and you need technical maintenance/assistance, please reach out to me directly at <a href="mailto:candace@candacerogue.com" className="special-caps" style={{ color:'#3B2317'}}>candace@candacerogue.com</a>.</p>
+                                                        <p>If you need technical maintenance/assistance completed by another professional, please book some time on my calendar <a href="https://calendly.com/candacerogue/dev" target="_blank" rel="noopener noreferrer" className="special-caps" style={{ color:'#3B2317'}}>here</a> for us to connect and speak through your issues!</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
                                                 <AccordionItem>
@@ -561,7 +560,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>Due to the quality of work and delivery of these templates, I do not offer refunds. If you need assistance moving forward with these templates, please feel free to hit me up at <a href="mailto:candace@candacerogue.com">candace@candacerogue.com</a></p>
+                                                        <p>Due to the quality of work and delivery of these templates, I do not offer refunds. If you need assistance moving forward with these templates, please feel free to hit me up at <a href="mailto:candace@candacerogue.com" className="special-caps" style={{ color:'#3B2317'}}>candace@candacerogue.com</a></p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
@@ -577,7 +576,7 @@ class NoExcuse extends Component{
                     {/* Start More Questions Area */}
                     <div className="text-center">                     
                         <h3 className="special-caps">Need a whole web experience?</h3>
-                        <span style={{ color: '#3B2317', fontSize:'2em', fontWeight:'bolder'}}>Contact me at <a href="mailto:candace@candacerogue.com" style={{ color: '#3B2317'}}>candace@candacerogue.com</a></span>
+                        <span style={{ color: '#3B2317', fontSize:'2em', fontWeight:'bolder'}}>Contact me at <a href="mailto:candace@candacerogue.com" className="special-caps" style={{ color:'#3B2317'}}>candace@candacerogue.com</a></span>
                     </div>  
                     {/* End More Questions Area */}
                     <br/>

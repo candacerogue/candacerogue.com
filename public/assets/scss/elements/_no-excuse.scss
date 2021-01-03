@@ -40,7 +40,7 @@
         }
     }
 
-    p {
+    p, li {
         color: #3B2317;
         font-size: 2em;
         font-weight: 600;
@@ -140,17 +140,17 @@
         
         img.no-excuse-video-img {
             width: 50vw;
-            height: 50vw;
+            // height: 50vw;
             object-fit: cover;   
 
             @media #{$md-layout, $lg-layout} {
                 width: 45vw;
-                height: 45vw;
+                // height: 45vw;
             }
 
             @media #{$sm-layout, $large-mobile} {
                 width: 80vw;
-                height: 80vw;
+                // height: 80vw;
             }
 
         }
@@ -172,17 +172,17 @@
 
         img.no-excuse-video-img {
             width: 50vw;
-            height: 50vw;
+            // height: 50vw;
             object-fit: cover;
 
             @media #{$md-layout, $lg-layout} {
                 width: 45vw;
-                height: 45vw;
+                // height: 45vw;
             }
 
             @media #{$sm-layout, $large-mobile} {
                 width: 80vw;
-                height: 80vw;
+                // height: 80vw;
             }
         }
     }
@@ -206,7 +206,7 @@
     }
 
     .rn-testimonial-area {
-        background-image: url(/assets/images/no-excuse/quote-section.png);
+        background-image: url(/assets/images/no-excuse/take-it-from-bg.png);
         background-repeat: no-repeat;
         background-size:  contain;
         background-position: center;
@@ -619,6 +619,10 @@
                 }
             }
         }
+    }
+
+    .faq-area {
+        font-size: .7em;
     }
 
 }
