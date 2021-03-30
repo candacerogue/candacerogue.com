@@ -115,6 +115,7 @@ class Root extends Component{
                     {/* Page Layout */}
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/linktree`} component={LinkTree}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/staygoldenlattes`} component={StayGolden}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/staygolden`} component={StayGolden}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/no-excuse-branding-website-kit`} component={NoExcuse}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/faq`} component={FAQ}/>
