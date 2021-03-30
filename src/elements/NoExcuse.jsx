@@ -184,9 +184,9 @@ class NoExcuse extends Component{
                                     <div className="single-column">
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Brand Guide. Providing the aesthetic so you don’t get lost in the sauce.</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Instagram Story Templates…No excuses remember? Promote your brand!</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 5 Instagram Story Templates…No excuses remember? Promote your brand!</p>
                                         <br/>
-                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 6 Social Media Post Templates. Got content? Good, because I have the format.</p>
+                                        <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> 5 Social Media Post Templates. Got content? Good, because I have the format.</p>
                                         <br/>
                                         <p><span role="img" aria-label="sun emoji">🔅</span><span className="special-caps">ADD-ON</span> Example Jot Form. I’m handing you the entire system to make the bread. Don’t fumble the bag.</p>
                                         <br/>
@@ -376,8 +376,8 @@ class NoExcuse extends Component{
                                                         <li><FiCheck /> Website Customization Tutorial</li>
                                                         <li><FiCheck /> ADD-ON Bonus Header</li>
                                                         <li><FiCheck /> ADD-ON Brand Guide</li>
-                                                        <li><FiCheck /> ADD-ON 6 Instagram Story Templates</li>
-                                                        <li><FiCheck /> ADD-ON Social Media Post Templates</li>
+                                                        <li><FiCheck /> ADD-ON 5 Instagram Story Templates</li>
+                                                        <li><FiCheck /> ADD-ON 5 Social Media Post Templates</li>
                                                         <li><FiCheck /> ADD-ON Example Jot Form</li>
                                                         <li><FiCheck /> ADD-ON Add Jot Form Tutorial</li>
                                                     </ul>
@@ -410,8 +410,8 @@ class NoExcuse extends Component{
                                                         <li><FiCheck /> Webstie Customization Tutorial</li>
                                                         <li><FiCheck /> ADD-ON Bonus Header</li>
                                                         <li><FiCheck /> ADD-ON Brand Guide</li>
-                                                        <li><FiCheck /> ADD-ON 6 Instagram Story Templates</li>
-                                                        <li><FiCheck /> ADD-ON Social Media Post Templates</li>
+                                                        <li><FiCheck /> ADD-ON 5 Instagram Story Templates</li>
+                                                        <li><FiCheck /> ADD-ON 5 Social Media Post Templates</li>
                                                         <li><FiCheck /> ADD-ON Example Jot Form</li>
                                                         <li><FiCheck /> ADD-ON Add Jot Form Tutorial</li>
                                                         <li><FiCheck /> ADD-ON Add Custom Domain Connection Service</li>
@@ -449,7 +449,18 @@ class NoExcuse extends Component{
                                         <div className="faq-area">
                                             <Accordion className="accodion-style--1" preExpanded={'0'}>
                                             <h3>General</h3>
-                                                <AccordionItem >
+                                                <AccordionItem>
+                                                    <AccordionItemHeading>
+                                                        <AccordionItemButton>
+                                                            What do I need to get started?
+                                                        </AccordionItemButton>
+                                                    </AccordionItemHeading>
+                                                    <AccordionItemPanel>
+                                                        <p>You need a Canva account, Jot Form account, purchased domain, and a payment gateway (i.e. PayPal Business, Stripe). Once you have signed up for these platforms, you're ready to get going with the kit!</p>
+                                                    </AccordionItemPanel>
+                                                </AccordionItem>
+
+                                                <AccordionItem>
                                                     <AccordionItemHeading>
                                                         <AccordionItemButton>
                                                             Can I customize and add my own brand colors, fonts, and images?
@@ -477,7 +488,7 @@ class NoExcuse extends Component{
                                                         </AccordionItemButton>
                                                     </AccordionItemHeading>
                                                     <AccordionItemPanel>
-                                                        <p>Yup! You can forward your custom domain to the link  that is created once you 'Publish as Website'. I teach you exactly how to do it. OR if you buy the platinum package, I will connect the custom domain to your landing page myself!</p>
+                                                        <p>Yup! You can <stong>forward </stong> your custom domain to the link that is created once you 'Publish as Website'. I teach you exactly how to do it. OR if you buy the platinum package, I will connect the custom domain to your landing page myself! Please keep in mind that forwarding your custom domain to the Canva template url does not mean that the template's url changes.</p>
                                                     </AccordionItemPanel>
                                                 </AccordionItem>
 
